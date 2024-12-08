@@ -492,7 +492,11 @@
     "netclass_patterns": [
       {
         "netclass": "POWER",
-        "pattern": "VCC|GND"
+        "pattern": "VCC|GND|/INUSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": ""
       }
     ]
   },
