@@ -35,6 +35,6 @@ The board was designed with [KiCad](https://kicad.org/) EDA.
 | R1                     |  1  | 4.7K 1/4W THT resistor           |                                                                      |
 | R2                     |  1  | 10K 1/4W THT resistor            |                                                                      |
 | Q1                     |  1  | 2N3906 TO-92 transistor          |                                                                      |
-| J1                     |  1  | 8pin, 2.5mm pitch socket         | Mount on the underside of the board                                  |
-| J2                     |  1  | 8pin, 2.5mm pitch header         | straight pins are fine, use right angled ones for a better fit       |
+| J1                     |  1  | 8pin, 2.54mm pitch socket        | Mount on the underside of the board                                  |
+| J2                     |  1  | 8pin, 2.54mm pitch header        | straight pins are fine, use right angled ones for a better fit       |
 | J3                     |  1  | 1pin                             | Optional, you can solder the activity wire here or use a header      |
