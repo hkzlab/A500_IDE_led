@@ -19,6 +19,11 @@ The IDE activity signal must then be taken from the IDE connector, on a 44 pin c
 
 ![Wire soldered on connector pin 39](pics/ide_act_wire.jpg)
 
+### Ordering the boards
+
+You can order the board for this project at [PCBWay](https://www.pcbway.com/project/shareproject/A500_IDE_LED_mod_board_fed31fc6.html) and support me or download 
+the gerbers and have them printed wherever you like!!!
+
 ## Hardware
 
 The board was designed with [KiCad](https://kicad.org/) EDA.
