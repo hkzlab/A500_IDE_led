@@ -38,3 +38,11 @@ The board was designed with [KiCad](https://kicad.org/) EDA.
 | J1                     |  1  | 8pin, 2.54mm pitch socket        | Mount on the underside of the board                                  |
 | J2                     |  1  | 8pin, 2.54mm pitch header        | straight pins are fine, use right angled ones for a better fit       |
 | J3                     |  1  | 1pin                             | Optional, you can solder the activity wire here or use a header      |
+| U1                     |  1  | 74AHCT1G07 SOT-353               | Optional, see note below                                             |
+| R3                     |  1  | 10K 0805 SMD resistor            | Optional, see note below                                             |
+| C1                     |  1  | 100nF/16V 0805 SMD capacitor     | Optional, see note below                                             |
+
+Components U1, R3 and C1 implement a buffer for the /IDE_ACTIVITY signal, which is useful if you notice that the activity LED in the A500 remains faintly lit
+when the adapter is installed (happens when the high level for the signal is not high enough to completely shut the transistor off).
+
+If these components are omitted, close the jumper JP1.
